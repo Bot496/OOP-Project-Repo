@@ -1,8 +1,7 @@
 #pragma once
 #include "Shipment.h"
-class Cargo :
+class Freight :
     protected Shipment
 {
-
 };
 
