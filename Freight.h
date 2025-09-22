@@ -3,5 +3,6 @@
 class Freight :
     protected TimeDest
 {
+
 };
 

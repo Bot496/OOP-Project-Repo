@@ -3,7 +3,7 @@
 
 class TimeDest
 {
-private:
+protected:
 	int time;
 	std::string dest;
 	std::string id;
