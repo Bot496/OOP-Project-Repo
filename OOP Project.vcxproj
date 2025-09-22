@@ -20,7 +20,6 @@
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="Cargo.cpp" />
-    <ClCompile Include="Delete.cpp" />
     <ClCompile Include="Freight.cpp" />
     <ClCompile Include="TimeDest.cpp" />
   </ItemGroup>
