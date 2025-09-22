@@ -19,15 +19,15 @@
     </ProjectConfiguration>
   </ItemGroup>
   <ItemGroup>
-    <ClInclude Include="Cargo.h" />
-    <ClInclude Include="Freight.h" />
-    <ClInclude Include="Shipment.h" />
-  </ItemGroup>
-  <ItemGroup>
     <ClCompile Include="Cargo.cpp" />
     <ClCompile Include="Delete.cpp" />
     <ClCompile Include="Freight.cpp" />
-    <ClCompile Include="Shipment.cpp" />
+    <ClCompile Include="TimeDest.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="Cargo.h" />
+    <ClInclude Include="Freight.h" />
+    <ClInclude Include="TimeDest.h" />
   </ItemGroup>
   <PropertyGroup Label="Globals">
     <VCProjectVersion>17.0</VCProjectVersion>

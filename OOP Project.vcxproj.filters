@@ -15,18 +15,10 @@
     </Filter>
   </ItemGroup>
   <ItemGroup>
-    <ClInclude Include="Shipment.h">
-      <Filter>Header Files</Filter>
-    </ClInclude>
-    <ClInclude Include="Cargo.h">
-      <Filter>Header Files</Filter>
-    </ClInclude>
-    <ClInclude Include="Freight.h">
-      <Filter>Header Files</Filter>
-    </ClInclude>
-  </ItemGroup>
-  <ItemGroup>
-    <ClCompile Include="Shipment.cpp">
+    <ClCompile Include="Delete.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="TimeDest.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
     <ClCompile Include="Cargo.cpp">
@@ -35,8 +27,16 @@
     <ClCompile Include="Freight.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="Delete.cpp">
-      <Filter>Source Files</Filter>
-    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="TimeDest.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Cargo.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Freight.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
   </ItemGroup>
 </Project>
