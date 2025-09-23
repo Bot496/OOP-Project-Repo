@@ -1,10 +1,12 @@
 #pragma once
-#include "TimeDest.h"
+#include "System.h"
+
 class Freight :
-    protected TimeDest
+    protected System
 {
-    Freight(std::string ID, std::string Dest, int time) 
-		: TimeDest(time, Dest, ID) {
-	}
+public:
+    Freight (std::string dest, int time, std::string id)
+        :System (dest, time, id) {
+    }
 };
 

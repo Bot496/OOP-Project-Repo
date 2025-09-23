@@ -19,14 +19,16 @@
     </ProjectConfiguration>
   </ItemGroup>
   <ItemGroup>
-    <ClCompile Include="Cargo.cpp" />
-    <ClCompile Include="Freight.cpp" />
-    <ClCompile Include="TimeDest.cpp" />
+    <ClInclude Include="Cargo.h" />
+    <ClInclude Include="FileHandler.h" />
+    <ClInclude Include="Freight.h" />
+    <ClInclude Include="System.h" />
   </ItemGroup>
   <ItemGroup>
-    <ClInclude Include="Cargo.h" />
-    <ClInclude Include="Freight.h" />
-    <ClInclude Include="TimeDest.h" />
+    <ClCompile Include="Cargo.cpp" />
+    <ClCompile Include="FileHandler.cpp" />
+    <ClCompile Include="Freight.cpp" />
+    <ClCompile Include="System.cpp" />
   </ItemGroup>
   <PropertyGroup Label="Globals">
     <VCProjectVersion>17.0</VCProjectVersion>
