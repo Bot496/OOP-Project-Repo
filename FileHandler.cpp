@@ -6,7 +6,7 @@ using namespace std;
 
 fstream myFile;
 
-bool FileHandler::openFile(std::string& classType) {
+bool FileHandler::openFile(const std::string& classType) {
 	std::string fileName;
 
 	if (classType == "Cargo") {
@@ -19,7 +19,8 @@ bool FileHandler::openFile(std::string& classType) {
 		fileName = "Schedule.txt";
 	}
 	else {
-		return false; // Invalid class type
+		std::cerr << "Invalid class type: " << classType << std::endl;
+		return false;
 	}
 
 	myFile.open(fileName, std::ios::in | std::ios::out | std::ios::app);
@@ -27,7 +28,31 @@ bool FileHandler::openFile(std::string& classType) {
 		std::cerr << "Error opening file: " << fileName << std::endl;
 		return false;
 	}
-
-	std::cout << "File opened successfully: " << fileName << std::endl;
-	return true;
 }
+
+void FileHandler::closeFile(const std::string& classType) {
+	std::string fileName = classType;
+	ofstream file(fileName);
+	file.close();
+}
+
+vector<std::string> FileHandler::readFile(std::string& classType) {
+	std::string fileName=classType;
+	std::ifstream file(fileName);
+	vector<std::string> lines;
+	std::string line;
+	while (getline(file, line)) {
+		lines.push_back(line);
+	}
+	return lines;
+}
+
+void  FileHandler::writeLine(std::string& classType, const std::string& line) {
+	std::ofstream(fileName, std::ios::app);
+	std::string fileName = classType;
+	std::ofstream file(fileName);
+	file << line << "\n";
+}
+
+
+

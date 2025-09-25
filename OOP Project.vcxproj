@@ -20,15 +20,19 @@
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="Cargo.h" />
+    <ClInclude Include="CargoList.h" />
     <ClInclude Include="FileHandler.h" />
     <ClInclude Include="Freight.h" />
+    <ClInclude Include="FreightList.h" />
     <ClInclude Include="Schedule.h" />
     <ClInclude Include="System.h" />
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="Cargo.cpp" />
+    <ClCompile Include="CargoList.cpp" />
     <ClCompile Include="FileHandler.cpp" />
     <ClCompile Include="Freight.cpp" />
+    <ClCompile Include="FreightList.cpp" />
     <ClCompile Include="Main.cpp" />
     <ClCompile Include="Schedule.cpp" />
     <ClCompile Include="System.cpp" />
