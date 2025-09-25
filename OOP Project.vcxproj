@@ -22,13 +22,21 @@
     <ClInclude Include="Cargo.h" />
     <ClInclude Include="FileHandler.h" />
     <ClInclude Include="Freight.h" />
+    <ClInclude Include="Schedule.h" />
     <ClInclude Include="System.h" />
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="Cargo.cpp" />
     <ClCompile Include="FileHandler.cpp" />
     <ClCompile Include="Freight.cpp" />
+    <ClCompile Include="Main.cpp" />
+    <ClCompile Include="Schedule.cpp" />
     <ClCompile Include="System.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <Text Include="cargo.txt" />
+    <Text Include="freight.txt" />
+    <Text Include="schedule.txt" />
   </ItemGroup>
   <PropertyGroup Label="Globals">
     <VCProjectVersion>17.0</VCProjectVersion>

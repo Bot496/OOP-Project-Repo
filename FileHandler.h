@@ -8,6 +8,7 @@
 class FileHandler
 {
 public:
-	static std::vector <Freight> readFfile
+	bool openFile(std::string& classType);
+
 };
 

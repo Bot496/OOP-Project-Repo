@@ -1,0 +1,5 @@
+1,F02,New York,0720,C01,New York,0720
+2,F53,Tokyo,1705,C13,Tokyo,1705
+3,F14,Tokyo,1710,C24,Tokyo,1710
+4,F37,Bangkok,2130,C15,Bangkok,2130
+5,F48,Chiang Mai,2359,C36,Chiang Mai,2359

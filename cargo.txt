@@ -1,0 +1,9 @@
+C01,New York,0720
+C02,New York,0725
+C08,Paris,855
+C13,Tokyo,1705
+C24,Tokyo,1710
+C34,Tokyo,1715
+C15,Bangkok,2130
+C18,Paris,2230
+C36,Chiang Mai,2359

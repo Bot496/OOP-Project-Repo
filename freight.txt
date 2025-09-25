@@ -1,0 +1,12 @@
+F01,New York,0710
+F02,New York,0720
+F06,London,0915
+F13,Tokyo,1700
+F33,Tokyo,1700
+F53,Tokyo,1705
+F14,Tokyo,1710
+F19,Seoul,1710
+F25,Seoul,1710
+F26,Seoul,1715
+F37,Bangkok,2130
+F48,Chiang Mai,2359
